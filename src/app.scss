@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ant-layout {
+  height: 100vh;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.demo-logo-vertical {
+  height: 57px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.weather-search-city {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 300px;
+  margin-left: auto;
+  margin-bottom: 16px;
+  gap: 10px;
+}
