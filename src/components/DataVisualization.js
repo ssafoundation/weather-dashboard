@@ -80,7 +80,7 @@ const DataVisualization = () => {
         },
       },
       title: {
-        text: "5-Day Weather Forecast",
+        text: `5-Day Weather Forecast Data Visualization ${city}`,
       },
     },
     series: [

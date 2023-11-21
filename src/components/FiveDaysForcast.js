@@ -56,7 +56,7 @@ const FiveDaysForcast = () => {
         },
       },
       title: {
-        text: "5-Day Weather Forecast",
+        text: "5-Day Weather Forecast in London",
       },
     },
     series: [

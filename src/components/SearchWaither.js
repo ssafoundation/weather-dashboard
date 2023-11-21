@@ -62,6 +62,9 @@ const SearchWaither = () => {
 
   const chartData = {
     options: {
+      toolbar: {
+        show: false,
+      },
       xaxis: {
         type: "datetime",
       },
@@ -71,7 +74,7 @@ const SearchWaither = () => {
         },
       },
       title: {
-        text: "5-Day Weather Forecast",
+        text: `5-Day Weather Forecast ${city}`,
       },
     },
     series: [
